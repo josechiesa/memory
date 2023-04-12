@@ -12,8 +12,8 @@
 					</p>
 				</div>
 				<div class="modal-footer">
-					<MenuButton type="primary" name="Reset" :click="gameStore.resetGame" />
-					<MenuButton type="danger" name="Exit" :click="formStore.exitGame" />
+					<MenuButton type="primary" name="Reiniciar" :click="gameStore.resetGame" />
+					<MenuButton type="danger" name="Salir" :click="formStore.exitGame" />
 				</div>
 			</div>
 		</div>
@@ -29,8 +29,6 @@
 
 	const gameStore = useGameStore();
 	const formStore = useFormStore();
-
-	// const modalInstance = new Modal(document.getElementById('modal'));
 
 	onMounted(() => {
 		// create modal instance

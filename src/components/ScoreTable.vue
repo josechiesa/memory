@@ -9,8 +9,8 @@
 			</h3>
 		</div>
 		<div class="d-flex gap-2">
-			<MenuButton type="primary" name="Reset" :click="gameStore.resetGame" />
-			<MenuButton type="danger" name="Exit" :click="formStore.exitGame" />
+			<MenuButton type="primary" name="Reiniciar" :click="gameStore.resetGame" />
+			<MenuButton type="danger" name="Salir" :click="formStore.exitGame" />
 		</div>
 	</div>
 </template>
